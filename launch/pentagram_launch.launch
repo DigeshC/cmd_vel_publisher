@@ -1,0 +1,6 @@
+<launch>
+  <!-- My Package launch file -->
+  <node pkg="cmd_vel_publisher" type="pentagram.py" name="penta"  output="screen">
+  <remap from="cmd_vel_publisher" to="/cmd_vel"/>
+  </node>
+ </launch>

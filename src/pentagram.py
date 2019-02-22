@@ -2,7 +2,6 @@
 
 import rospy                               # Import the Python library for ROS
 from geometry_msgs.msg import Twist            # Import the Twist message from the geometry_msg package
-import time
 import math
 
 rospy.init_node('penta')                # Initiate a Node named 'infinity_node'
